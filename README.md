@@ -1,3 +1,4 @@
+
 # Locket Gold - Landing Page
 
 Trang web giới thiệu ứng dụng Locket Gold cho Android - phiên bản được mod bởi người Việt.
@@ -48,3 +49,6 @@ Mọi đóng góp đều được hoan nghênh. Vui lòng tạo pull request đ�
 ## License
 
 MIT License 
+=======
+# locket_atf
+Locket Gold Free, Apk in there locket.asia
