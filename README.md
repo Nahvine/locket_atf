@@ -1,34 +1,43 @@
-
 # Locket Gold - Landing Page
 
-Trang web giới thiệu ứng dụng Locket Gold cho Android - phiên bản được mod bởi người Việt.
+A modern landing page for Locket Gold for Android (modded by Vietnamese devs).
 
-## Tính năng
+## Features
 
-- Thiết kế hiện đại, responsive
-- Animation mượt mà
-- Tối ưu hóa cho mobile và desktop
-- Tải xuống ứng dụng dễ dàng
-- Thông tin chi tiết về tính năng
+- Modern, responsive design
+- Smooth animations
+- Download APK easily
+- Full information about Locket Gold features
+- Vietnamese mod, unlocks all premium/limited features
 
-## Công nghệ sử dụng
+## Locket Gold Unlocks
+
+- Long captions
+- Remove ads
+- Record 15s videos
+- Locket Gold badge
+- Add more friends limit
+- Upload photos from device
+- Change camera theme color
+- See who viewed your Locket
+
+## Tech Stack
 
 - HTML5
-- CSS3 (với animations)
+- CSS3 (with animations)
 - JavaScript
-- Font Awesome cho icons
+- Font Awesome
 - Google Fonts
 
-## Cài đặt
+## Usage
 
-1. Clone repository:
+1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/locket-landing.git
+git clone https://github.com/Nahvine/locket_atf.git
 ```
+2. Open `index.html` in your browser.
 
-2. Mở file `index.html` trong trình duyệt
-
-## Cấu trúc dự án
+## Project Structure
 
 ```
 locket-landing/
