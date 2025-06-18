@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locket Gold - Ứng dụng Widget Lock Screen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Locket Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#features">Tính năng</a>
+                <a href="#download">Tải xuống</a>
+                <a href="#about">Giới thiệu</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Locket Gold</h1>
+                <p class="subtitle">Widget Lock Screen đẹp nhất cho Android</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">Tải xuống ngay</a>
+                    <a href="https://locket.asia" class="btn btn-secondary">Trang chủ</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image/locket.png" alt="Locket App Preview">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Tính năng nổi bật</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-unlock-alt"></i>
+                    <h3>MỞ KHÓA GOLD</h3>
+                    <ul class="gold-features">
+                        <li>CAPTION DÀI</li>
+                        <li>XÓA QUẢNG CÁO</li>
+                        <li>QUAY ĐƯỢC VIDEO 15S</li>
+                        <li>HUY HIỆU LOCKET GOLD</li>
+                        <li>MỞ THÊM GIỚI HẠN BẠN BÈ</li>
+                        <li>ĐĂNG ẢNH TỪ MÁY LÊN LOCKET</li>
+                        <li>ĐỔI MÀU THEME CAMERA</li>
+                        <li>HIỆN NHỮNG AI ĐÃ XEM LOCKET CỦA MÌNH</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2>Tải xuống ngay</h2>
+            <div class="download-info">
+                <p>Phiên bản: Gold Mod</p>
+                <p>Kích thước: 15MB</p>
+                <p>Yêu cầu: Android 5.0+</p>
+            </div>
+            <a href="https://www.locket.click/android" class="btn btn-download" target="_blank">
+                <i class="fas fa-download"></i>
+                Tải xuống APK
+            </a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Về Locket Gold</h2>
+            <div class="about-content">
+                <p>Locket Gold là phiên bản mod của ứng dụng Locket chính thức, được phát triển bởi người Việt. Ứng dụng mang đến trải nghiệm widget lock screen tuyệt vời với đầy đủ tính năng premium.</p>
+                <div class="about-features">
+                    <ul>
+                        <li>✓ Không quảng cáo</li>
+                        <li>✓ Mở khóa tất cả widget</li>
+                        <li>✓ Tối ưu hóa hiệu suất</li>
+                        <li>✓ Hỗ trợ tiếng Việt</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Locket Gold. Được mod bởi người Việt.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    // Shopee redirect logic
+    let lastOpen = 0;
+    const shopeeUrl = 'https://shopee.vn/unlockgold';
+    document.body.addEventListener('click', function(e) {
+        const now = Date.now();
+        if (now - lastOpen > 60000) {
+            window.open(shopeeUrl, '_blank');
+            lastOpen = now;
+        }
+    });
+    </script>
+</body>
+</html> 
